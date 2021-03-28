@@ -32,7 +32,7 @@ Examples: "42" -> output: 42
 	  "-91283472332" -> output: -2147483648
 */
 
-class Solution {
+class MyAtoi {
     public int myAtoi(String s) {
         if (s.length() == 0) return 0;
         int index = 0;

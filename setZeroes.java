@@ -5,7 +5,7 @@
  * Constraints: m == matrix.length, n == matrix[0].length, 1 <= m,n <= 200
  */
 
-class Solution {
+public class SetZeroes {
     public void setZeroes(int[][] matrix) {
         boolean firstRow = false;
         boolean firstCol = false;
